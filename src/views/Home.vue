@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="" src="#">
+    <HelloWorld msg="Bienvenue sur le livre d'Or"/>
   </div>
 </template>
 
@@ -16,3 +16,9 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+  img {
+    background: transparent;
+  }
+</style>
