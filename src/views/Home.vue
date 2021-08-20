@@ -1,7 +1,14 @@
 <template>
   <div class="home">
-    <img alt="" src="#">
-    <HelloWorld msg="Bienvenue sur le livre d'Or"/>
+    <div class="up">
+        <img alt="" src="#">
+        <HelloWorld msg="Bienvenue sur le livre d'Or"/>
+    </div>
+    <div class="parallax">
+    </div>
+    <div class="down">
+      Crédits
+    </div>
   </div>
 </template>
 
@@ -18,7 +25,18 @@ export default {
 </script>
 
 <style scoped>
-  img {
-    background: transparent;
+  .parallax
+  {
+    background-image:url("../assets/E&F.jpg");
+    height:500px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+  }
+
+  .up, .down
+  {
+    height: 500px;
   }
 </style>
